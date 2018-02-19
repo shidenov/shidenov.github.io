@@ -19,6 +19,7 @@
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -27,14 +28,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
-					<img src="img/main-img.png" class="header-img">
+					<img src="img/main-img.png" class="header-img wow fadeInLeft">
 				</div>
 				<div class="col-lg-5">
-					<p class="header-pretitle">Веб-разработчик</p>
+					<p class="header-pretitle wow fadeInRight" data-wow-delay="0.1s">Веб-разработчик</p>
 					<h1 class="header-name">Шиденов Чингиз</h1>
 					<p class="header-subtitle">Верстка на HTML/CSS<br> Разработка сайтов под ключ</p>
 					<div class="header-button-block">
-						<button class="header-button">Связаться</button>
+						<a href="https://vk.com/tashetov" class="header-button">Связаться</a>
 					<small>Это бесплатно</small>
 					</div>
 				</div>
@@ -43,7 +44,7 @@
 	</header>
 	<main>
 	<div class="container">
-		<div class="portfolio-block">
+		<div class="portfolio-block wow fadeIn" data-wow-delay="0.3">
 			<h2 class="portfolio-title">
 				Портфолио
 			</h2>
@@ -79,22 +80,24 @@
 			<div class="col-md-4">
 				<div class="social-block">
 					<p>Подпишитесь:</p>
-					<a href="#"><img src="img/facebook-logo-button.png" alt=""></a>
-					<a href="#"><img src="img/telegram-symbol.png" alt=""></a>
-					<a href="#"><img src="img/vk-social-logotype.png" alt=""></a>
-					<a href="#"><img src="img/youtube-symbol.png" alt=""></a>
+					<a class="wow bounceInDown" data-wow-delay="0.1s" href="https://www.facebook.com/profile.php?id=100014644867950&ref=bookmarks"><img src="img/facebook-logo-button.png" alt="" ></a>
+					<a class="wow bounceInDown" data-wow-delay="0.2s" href="https://telegram.org"><img src="img/telegram-symbol.png" alt="" ></a>
+					<a class="wow bounceInDown" data-wow-delay="0.3s" href="https://vk.com/tashetov"><img src="img/vk-social-logotype.png" alt="" ></a>
+					<a class="wow bounceInDown" data-wow-delay="0.4s" href="https://www.youtube.com/playlist?list=PLRoXQfrhqdOohkbJELZ8C2XedU1NB3KxO"><img src="img/youtube-symbol.png" alt="" ></a>
 				</div>
 			</div>
 			<div class="col-md-4">
 			<div class="footer-cta-block">
 				<p class="footer-cta">Напишите мне:</p>
-				<button class="footer-btn">Написать</button>
+				<a href="https://vk.com/tashetov" class="footer-btn">Написать</a>
 			</div>
 				
 			</div>
 		</div>
 		</div>
 	</footer>
-
+	<script src="js/wow.min.js"></script>
+	<script>new WOW().init();</script>
+	
 </body>
 </html>
