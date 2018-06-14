@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff");
+  font-weight: normal; }
+
+@font-face {
+  font-family: "RobotoBold";
+  src: url("../fonts/RobotoBold/RobotoBold.woff") format("woff");
+  font-weight: normal; }
+
+@font-face {
+  font-family: "CleanvertisingLight";
+  src: url("../fonts/CleanvertisingLight/CleanvertisingLight.woff") format("woff");
+  font-weight: normal; }
