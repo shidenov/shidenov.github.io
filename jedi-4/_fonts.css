@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  src: url("fonts/RobotoBold/RobotoBold.woff") format("woff"),
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}

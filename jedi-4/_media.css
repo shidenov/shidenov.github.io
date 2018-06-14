@@ -1,0 +1,135 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+  .head-main .navbar-collapse {
+    position: relative;
+  }
+
+  .head-main__phone {
+    position: absolute;
+    right: 114px;
+  }
+
+  .head-main ul.navbar-nav {
+    margin-top: 25px;
+  }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+  .head-main__phone {
+    right: 40px;
+  }
+
+  ul.navbar-nav a {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .news__item .panel {
+    max-width: 100%;
+  }
+
+  .footer-main .col-sm-6 {
+    margin-bottom: 20px;
+    min-height: 75px;
+  }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+  .head-main__phone {
+    position: relative;
+  }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .tills__item a {
+    width: 400px;
+    height: 192px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+  .carousel .item {
+    min-height: 500px;
+  }
+
+  .aside-carousel .item {
+    min-height: 100%;
+  }
+
+  .carousel-inner .h1 {
+    font-size: 1.6em;
+    line-height: 1.3;
+  }
+
+  .carousel-inner small {
+    margin-top: 10px;
+    font-size: 1.1em;
+  }
+
+  .footer-main {
+    padding-top: 40px;
+  }
+
+  .footer-main .col-xs-6 {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -6px;
+  }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}

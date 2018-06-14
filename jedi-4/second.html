@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Заголовок</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap_skin.css">
+    <link rel="stylesheet" href="_main.css">
+    <link rel="stylesheet" href="_media.css">
+
+    <!-- Load CSS Compilled without JS -->
+    <noscript>
+      <link rel="stylesheet" href="compiled.min.css">
+    </noscript>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+  </head>
+
+  <body>
+
+    <header class="head-main">
+      <nav class="navbar navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logotip"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Главная</a></li>
+              <li><a href="#">О компании</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Рекомендации</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Раздел 1</a></li>
+                  <li><a href="#">Раздел 2</a></li>
+                  <li><a href="#">Раздел 3 длинный предлинный</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Раздел...</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Услуги</a></li>
+              <li><a href="#">Законодательство</a></li>
+              <li><a href="#">Наши клиенты</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+            <div class="nav navbar-nav navbar-right">
+              <div class="lead head-main__phone">8(495) 974 16 44</div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <main>
+      <section class="slider">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="overlay"></div>
+              <div class="slider__image"></div>
+              <div class="container">
+                <div class="carousel-caption">
+                  <div class="h1">
+                    Перепланировка помещений.
+                    <small>В Москве и в Московской области</small>
+                  </div>
+                  <p>leek, intuitive, and powerful mobSleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.b development.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Читать подробнее</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="overlay"></div>
+              <div class="slider__image"></div>
+              <div class="container">
+                <div class="carousel-caption">
+                  <div class="h1">
+                    Перепланировка помещений.
+                    <small>В Москве и в Московской области</small>
+                  </div>
+                  <p>leek, intuitive, and powerful mobSleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.b development.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Читать подробнее</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="main main--second">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-4">
+
+              <aside class="left-aside">
+
+                <div class="box box--search">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Поиск по сайту">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <form class="box box--application">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4>Бланк заявки</h4>
+                      <button class="btn btn-warning">Отправить заявку</button>
+                    </div>
+                    <div class="panel-body">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                          <input type="text" class="form-control" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+                          <input type="text" class="form-control" placeholder="Ваше телефон" required>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+                <div class="box box--menu">
+                  <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
+                            Согласование перепланировки
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="height: 0px;">
+                        <div class="list-group">
+                          <a href="#" class="list-group-item active">
+                            <span>Перепланировка квартир</span>
+                          </a>
+                          <a href="#" class="list-group-item">
+                            <span>стоимость перепланировки</span>
+                          </a>
+                          <a href="#" class="list-group-item">
+                            <span>согласование реконструкций зданий</span>
+                          </a>
+                          <a href="#" class="list-group-item">
+                            <span>согласование реконструкций зданий</span>
+                          </a>
+                          <a href="#" class="list-group-item">
+                            <span>Перепланировка квартир</span>
+                          </a>
+                          <a href="#" class="list-group-item">
+                            <span>стоимость перепланировки</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                          <a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Согласование реконструкций зданий
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
+                        <div class="list-group">
+                          <a href="#" class="list-group-item active">
+                            <span>проектирование</span>
+                          </a>
+                          <a href="#" class="list-group-item">
+                            <span>ремонт квартир и офисов</span>
+                          </a>
+                          <a href="#" class="list-group-item">
+                            <span>строительство</span>
+                          </a>
+                          <a href="#" class="list-group-item">
+                            <span>ландшафтное проектирование</span>
+                          </a>
+                          <a href="#" class="list-group-item">
+                            <span>Дизайн интерьеров квартир</span>
+                          </a>
+                          <a href="#" class="list-group-item">
+                            <span>перевод из жилого фонда в нежилой</span>
+                          </a>
+                          <a href="#" class="list-group-item">
+                            <span>Присоединение помещений имущества</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box box--carousel">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      <h4>Интересные статьи</h4>
+                      <div id="aside-carousel" class="carousel slide aside-carousel" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                          <div class="item active">
+                            <div class="aside-carousel__container">
+                              <h4 class="lead">“As font, typography, and paout without being distracted by the content.”</h4>
+                              <p>Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, aed by t meaningful text, as they can instead use quickly-generated lorem ipsum.</p>
+                              <p>The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC...</p>
+                              <a class="aside-carousel__link" href="#">Читать далее...</a>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="aside-carousel__container">
+                              <h4 class="lead">“As font, typography, and paout without being distracted by the content.”</h4>
+                              <p>Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, aed by t meaningful text, as they can instead use quickly-generated lorem ipsum.</p>
+                              <p>The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC...</p>
+                              <a class="aside-carousel__link" href="#">Читать далее...</a>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="aside-carousel__container">
+                              <h4 class="lead">“As font, typography, and paout without being distracted by the content.”</h4>
+                              <p>Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, aed by t meaningful text, as they can instead use quickly-generated lorem ipsum.</p>
+                              <p>The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC...</p>
+                              <a class="aside-carousel__link" href="#">Читать далее...</a>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="aside-carousel__container">
+                              <h4 class="lead">“As font, typography, and paout without being distracted by the content.”</h4>
+                              <p>Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, aed by t meaningful text, as they can instead use quickly-generated lorem ipsum.</p>
+                              <p>The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC...</p>
+                              <a class="aside-carousel__link" href="#">Читать далее...</a>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="aside-carousel__container">
+                              <h4 class="lead">“As font, typography, and paout without being distracted by the content.”</h4>
+                              <p>Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, aed by t meaningful text, as they can instead use quickly-generated lorem ipsum.</p>
+                              <p>The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC...</p>
+                              <a class="aside-carousel__link" href="#">Читать далее...</a>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="aside-carousel__container">
+                              <h4 class="lead">“As font, typography, and paout without being distracted by the content.”</h4>
+                              <p>Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, aed by t meaningful text, as they can instead use quickly-generated lorem ipsum.</p>
+                              <p>The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC...</p>
+                              <a class="aside-carousel__link" href="#">Читать далее...</a>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="aside-carousel__container">
+                              <h4 class="lead">“As font, typography, and paout without being distracted by the content.”</h4>
+                              <p>Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, aed by t meaningful text, as they can instead use quickly-generated lorem ipsum.</p>
+                              <p>The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC...</p>
+                              <a class="aside-carousel__link" href="#">Читать далее...</a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#aside-carousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#aside-carousel" data-slide-to="1"></li>
+                          <li data-target="#aside-carousel" data-slide-to="2"></li>
+                          <li data-target="#aside-carousel" data-slide-to="3"></li>
+                          <li data-target="#aside-carousel" data-slide-to="4"></li>
+                          <li data-target="#aside-carousel" data-slide-to="5"></li>
+                          <li data-target="#aside-carousel" data-slide-to="6"></li>
+                        </ol>
+                        <div class="aside-carousel__controls">
+                          <a class="left carousel-control" href="#aside-carousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#aside-carousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="well">
+                    <h4>Лицензия №</h4>
+                    <p>ГС-1-99-02-26-0-7715631529-069914-1 <br>Мы вступили в СРО 26.03.2010 г.</p>
+                  </div>
+                </div>
+
+              </aside>
+            </div>
+
+            <div class="col-md-9 col-sm-8">
+              <div class="content">
+
+                <ul class="breadcrumb">
+                  <li><a href="index.html">Главная</a></li>
+                  <li><a href="#">Согласование перепланировок</a></li>
+                  <li class="active">Согласование перепланировки офисов</li>
+                </ul>
+
+                <h1>согласование перепланировки офисов</h1>
+
+                <article class="information clearfix">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <img src="img/art_image.png" alt="alt">
+                      <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Раз первую несколько lorem, семантика толку, даль. Ручеек всемогущая продолжил снова которой рот! Себя великий но лучше переулка бросил взобравшись!</p>
+                      <p>Меня на берегу переписывается путь последний наш текста вопроса сих предупредила, лучше переписали то, но курсивных приставка города себя. Запятых его заглавных безорфографичный всеми, наш подзаголовок даже строчка, реторический сбить путь!</p>
+                      <p>Взгляд образ мир гор курсивных одна коварный всеми что свой составитель текста! Переписывается великий своего языком составитель назад живет вершину знаках, эта последний если, толку которое. Но подзаголовок свою что!</p>
+                      <blockquote>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Встретил щеке домах, рукописи языкового, подзаголовок реторический снова что буквоград букв диких, инициал. Домах первую, они до переписывается подзаголовок, великий?</blockquote>
+                      <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Раз первую несколько lorem, семантика толку, даль. Ручеек всемогущая продолжил снова которой рот! Себя великий но лучше переулка бросил взобравшись!</p>
+                      <p>Меня на берегу переписывается путь последний наш текста вопроса сих предупредила, лучше переписали то, но курсивных приставка города себя. Запятых его заглавных безорфографичный всеми, наш подзаголовок даже строчка, реторический сбить путь!</p>
+                      <p>Взгляд образ мир гор курсивных одна коварный всеми что свой составитель текста! Переписывается великий своего языком составитель назад живет вершину знаках, эта последний если, толку которое. Но подзаголовок свою что!</p>
+                      <blockquote>As font, typography, and page layout without being distracted by the content</blockquote>
+                    </div>
+                  </div>
+                </article>
+
+                <div class="news">
+                  <h4>Новости в сфере строительства</h4>
+                  <div class="row">
+                    <ul>
+                      <li class="col-md-4 news__item">
+                        <div class="panel panel-default">
+                          <div class="panel-body">
+                            <p>В среднем за квартиру в Москве на вторичном рынке нужно выложить 8 млн. рублей. Среднестатистическая сделка по покупке квартиры на вторичном рынке столицы оценивается в 8,1 милл...</p>
+                            <a href="#">Читать далее...</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-4 news__item">
+                        <div class="panel panel-default">
+                          <div class="panel-body">
+                            <p>В среднем за квартиру в Москве на вторичном рынке нужно выложить 8 млн. рублей. Среднестатистическая сделка по покупке квартиры на вторичном рынке столицы оценивается в 8,1 милл...</p>
+                            <a href="#">Читать далее...</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-4 news__item">
+                        <div class="panel panel-default">
+                          <div class="panel-body">
+                            <p>В среднем за квартиру в Москве на вторичном рынке нужно выложить 8 млн. рублей. Среднестатистическая сделка по покупке квартиры на вторичном рынке столицы оценивается в 8,1 милл...</p>
+                            <a href="#">Читать далее...</a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-6 col-xs-6 logo-wrapper">
+            <img src="img/logo.png" alt="logotip">
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-6">
+            <strong>Еропейское качество <br>по стандартам РФ</strong>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-6">
+            <div class="lead footer-main__phone">
+              8(495)974-16-44<br>
+              <a class="footer-main__callback" href="#" data-toggle="modal" data-target="#myModal">Заказать звонок</a>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-6 col-xs-6">
+            <a class="footer-main__developer" href="#">
+              <small>Разработка сайта:</small>
+              <img src="img/logo_cwebs.png" alt="разработка сайтов">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <form class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Заказать звонок</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label class="control-label" for="inputDefault">Ваше имя:</label>
+            <input type="text" class="form-control" id="inputDefault">
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="inputDefault">Ваш телефон:</label>
+            <input type="tel" class="form-control" id="inputDefault">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-warning btn btn-default" data-dismiss="modal">Закрыть</button>
+          <button type="submit" class="btn btn-primary">Отправить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- Load CSS -->
+<!--   <script>
+  function loadCSS(hf) {
+    var ms = document.createElement("link");
+    ms.rel = "stylesheet";
+    ms.href = hf;
+    document.getElementsByTagName("head")[0].appendChild(ms);
+  }
+  // loadCSS("libs/animate/animate.css"); //Load Libs CSS: Animate CSS
+  loadCSS("_header.css"); //Header Styles (compress & paste to header after release)
+  loadCSS("_main.css"); //User Styles: Main
+  loadCSS("_media.css"); //User Styles: Media
+  </script> -->
+  <!-- Load CSS compiled without Bootstrap & Header styles (after release) -->
+<!--   <script>
+  var ms = document.createElement("link");
+  ms.rel = "stylesheet";
+  // ms.href="compiled.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
+  </script> -->
+  <!-- Load Scripts -->
+  <script>
+  var scr = {
+    "scripts": [
+      { "src": "libs/modernizr/modernizr.js", "async": false },
+      { "src": "libs/jquery/jquery-1.11.2.min.js", "async": false },
+      { "src": "libs/bootstrap/js/bootstrap.min.js", "async": false },
+      { "src": "libs/plugins-scroll/plugins-scroll.js", "async": false },
+      { "src": "js/common.js", "async": false }
+    ]
+  };
+  ! function(t, n, r) { "use strict"; var c = function(t) { if ("[object Array]" !== Object.prototype.toString.call(t)) return !1; for (var r = 0; r < t.length; r++) { var c = n.createElement("script"),
+          e = t[r];
+        c.src = e.src, c.async = e.async, n.body.appendChild(c) } return !0 };
+    t.addEventListener ? t.addEventListener("load", function() { c(r.scripts); }, !1) : t.attachEvent ? t.attachEvent("onload", function() { c(r.scripts) }) : t.onload = function() { c(r.scripts) } }(window, document, scr);
+  </script>
+
+  </body>
+</html>
