@@ -126,9 +126,8 @@
 
     getCoordinations();
 
-    if(popup){
-      window.card.closeAdvert();
-    }
+    window.card.closeAdvert();
+
     setPrice();
 
     window.previewPhotos.resetAvatarLoad();
